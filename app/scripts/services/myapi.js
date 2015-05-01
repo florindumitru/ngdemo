@@ -8,6 +8,8 @@
  * Factory in the ngdemoApp.
  */
 angular.module('ngdemoApp')
-  .factory('myapi', function () {
+  .factory('myApi', function ($resource, url) {
 
+  return $resource(url+'Products/:id');
+  
   });

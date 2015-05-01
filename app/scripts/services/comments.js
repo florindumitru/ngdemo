@@ -8,6 +8,8 @@
  * Factory in the ngdemoApp.
  */
 angular.module('ngdemoApp')
-  .factory('comments', function () {
+  .factory('comments', function ($resource, url) {
+
+  return $resource(url+'Comments/:id');
 
   });

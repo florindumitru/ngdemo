@@ -8,4 +8,4 @@
  * Constant in the ngdemoApp.
  */
 angular.module('ngdemoApp')
-  .constant('url', 'http://path');
+  .constant('url', 'http://89.35.232.102:3000/api/');

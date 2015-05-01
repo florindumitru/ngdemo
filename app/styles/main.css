@@ -19,7 +19,7 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+
   margin-bottom: 10px;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -62,7 +62,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 930px;
   }
 
   /* Remove the padding we set earlier */
@@ -80,4 +80,75 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+.list-group-item {
+
+border: 0px solid #fff;
+}
+
+.list-group-item-heading {
+  margin-bottom: 15px;
+}
+.comments {
+  border: 1px solid rgb(228, 228, 228);
+}
+
+.username {
+  font-weight: bold;
+}
+
+#comment-form {
+  margin-top: 10px;
 }

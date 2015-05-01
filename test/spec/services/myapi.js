@@ -1,18 +1,14 @@
 'use strict';
 
-describe('Service: myapi', function () {
+describe('Service: myApi', function () {
 
   // load the service's module
   beforeEach(module('ngdemoApp'));
 
   // instantiate service
   var myapi;
-  beforeEach(inject(function (_myapi_) {
-    myapi = _myapi_;
+  beforeEach(inject(function (_myApi_) {
+    myApi = _myApi_;
   }));
-
-  it('should do something', function () {
-    expect(!!myapi).toBe(true);
-  });
 
 });
