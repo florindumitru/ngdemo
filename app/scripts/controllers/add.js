@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name ngdemoApp.controller:MainCtrl
+ * @name ngdemoApp.controller:AddCtrl
  * @description
- * # MainCtrl
+ * # AddCtrl
  * Controller of the ngdemoApp
  */
 angular.module('ngdemoApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('AddCtrl', function ($scope) {
 
   });
